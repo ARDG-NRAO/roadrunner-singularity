@@ -22,7 +22,7 @@ From: nvcr.io/nvidia/cuda:12.0.1-devel-rockylinux8
    dnf -y install git cmake gcc-c++ gcc-gfortran gtest-devel ccache readline-devel ncurses-devel blas-devel lapack-devel cfitsio-devel fftw-devel wcslib-devel python38 python38-devel python38-numpy flex bison tar curl
 
    # Packages needed for libsakura development
-   dnf -y install eigen3-devel fftw-devel openmpi-devel
+   dnf -y install eigen3-devel fftw-devel openmpi-devel gsl-devel
  
    dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/protobuf-3.6.1-3.el8.x86_64.rpm
    dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/protobuf-compiler-3.6.1-3.el8.x86_64.rpm
