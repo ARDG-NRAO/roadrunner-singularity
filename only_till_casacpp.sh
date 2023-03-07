@@ -18,7 +18,7 @@ git clone --recursive https://open-bitbucket.nrao.edu/scm/casa/casa6.git --branc
 ####### Install Kokkos ########
 # Depending on what you set the CUDA_ARCH variable kokkos will build optimizations for that.
 
-git clone  https://github.com/kokkos/kokkos.git
+git clone --branch release-candidate-3.7.02 https://github.com/kokkos/kokkos.git
 
 cd kokkos
 
