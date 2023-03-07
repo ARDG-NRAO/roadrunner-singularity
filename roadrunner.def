@@ -24,13 +24,6 @@ From: nvcr.io/nvidia/cuda:12.0.1-devel-rockylinux8
    # Packages needed for libsakura development
    dnf -y install eigen3-devel fftw-devel openmpi-devel gsl-devel
  
-   #dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/protobuf-3.6.1-3.el8.x86_64.rpm
-   #dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/protobuf-compiler-3.6.1-3.el8.x86_64.rpm
-   #dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/protobuf-devel-3.6.1-3.el8.x86_64.rpm
-   #dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/grpc-1.18.0-2.el8.x86_64.rpm
-   #dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/grpc-devel-1.18.0-2.el8.x86_64.rpm
-   #dnf -y install https://casa.nrao.edu/download/devel/grpc/el8-1.18/grpc-plugins-1.18.0-2.el8.x86_64.rpm
-
    # Post installation making path /casa_builds/
    mv /readline.pc /usr/lib64/pkgconfig/
    mkdir -p /casa_builds
